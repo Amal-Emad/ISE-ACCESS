@@ -1,0 +1,12 @@
+span{
+    color:rgb(130, 17, 222);
+}
+
+#img:hover{
+    border: 2px;
+    border-color: blueviolet;
+    transition: 0.8s;
+    transform: scale(3.9);
+    cursor: zoom-in;
+}
+

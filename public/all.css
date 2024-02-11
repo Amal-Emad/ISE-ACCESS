@@ -1,0 +1,177 @@
+
+body {
+    background-color: rgba(247, 224, 245, 0.167);
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.navbar-brand:hover {
+    animation: spinColorChange 1s ease infinite;
+}
+
+@keyframes spinColorChange {
+    0% {
+        transform: rotate(180deg);
+        color: #fb7dff; /* Initial color */
+    }
+    50% {
+        transform: rotate(180deg);
+        color: #8c15fb; /* Color during animation */
+    }
+    100% {
+        transform: rotate(0deg);
+        color: #f12fff; /* Final color */
+    }}
+
+
+.summary-color {
+    color: #8c15fb;
+}
+
+.freq{
+   text-align: center;
+   color:#8c15fb;
+}
+
+
+
+#iseNote{
+    color:#8c15fb;
+  }
+
+
+.img-rounded,
+        .alert,
+        .card,
+        .form-label,
+        .form-control {
+            color: #bc7bfa !important;}
+    
+
+.navbar {
+    background-color: #00040d; 
+    padding: 10px ;
+    border-bottom: 6px solid #cb97fc; }
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    font-size: 28px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for link color change */
+}
+
+
+.dropdown-menu:hover {
+    color: #c190ee;
+}
+
+.nav-link:hover {
+    color: #cda2f6; 
+}
+
+.navbar-nav .active > .nav-link {
+    color: white; /* White font color for active link */
+    font-weight: bold; /* Bold font weight for active link */
+}
+
+.question-link {
+    color: #8c15fb; 
+    text-decoration: none;
+}
+
+.question-link:hover {
+    color: #8c15fb; /* Darker blue color on hover */
+}
+
+.btn {
+    background-color: #bf82f9;
+    border-color: #c796f4;
+}
+
+.library-title {
+    color: #8c15fb;
+    text-align: center;
+}
+
+
+.img-rounded {
+    box-shadow: 0 2px 4px rgba(178, 102, 254, 0.183);
+}
+
+
+/* Add styles for the left sidebar */
+.left-sidebar {
+    float: left;
+    width: 250px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.left-sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.left-sidebar a:hover {
+    color: #8c15fb;
+}
+
+
+.library-title {
+    color: #8c15fb;
+    text-align: center;
+    transition: color 0.4s, transform 0.3s;
+}
+.library-title:hover {
+    color: #fd91ff;
+    transform: scale(1.00) rotate(-5deg);
+}
+
+.freq-title {
+    color: #8c15fb;
+    text-align: center;
+    transition: color 0.4s, transform 0.3s;
+}
+.freq-title:hover {
+    color: #fd91ff;
+    transform: scale(1.00) rotate(-5deg);
+}
+
+
+.social-icon {
+    font-size: 24px; /* Adjust the size of the icons */
+    color: #8c15fb; 
+    margin-right: 17px; 
+}
+
+
+.NO{
+    font-size: 24px; /* Adjust the size of the icons */
+    color: #8c15fb; 
+    
+}
+
+
+/* Add this in your <style> section or a separate CSS file */
+.btn-highlight {
+    border: 2px solid blue;
+}
