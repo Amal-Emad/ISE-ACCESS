@@ -42,7 +42,4 @@ Communication is facilitated through the "Contact Us" page, providing users with
 
 ISE Access offers a personalized experience through the "My Profile" page. Users can customize settings, track contributions, and manage their posted questions, enhancing their overall engagement with the online platform.
 
-## 🚀 Usage
-
-Visit the [ISE Access website](#yourwebsiteurl) and explore its features. Post questions, browse the ISE Library, check FAQs, contact administrators, and personalize your profile. There is no need for local installation.
 
